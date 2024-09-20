@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cards{
+    width: 20%;
+    display: inline-block;
+    background-color: #df7b09;
+    border-radius: 5px;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 10px black;
+    
+}
+
+.image img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.title{
+    text-align: center;
+}
+.des{
+    margin-left: 5%;
+}
+.add_cart{
+    margin-top: 10px;
+    margin-left: 5%;
+    padding-bottom: 5px;
+}
+.add_cart input:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
