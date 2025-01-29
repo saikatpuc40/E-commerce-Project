@@ -13,7 +13,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="{{route('homepage')}}">Happy shopping</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -71,6 +72,13 @@
             </div>
         </div>
     </nav>
+
+    </header>
+    <main>
+
+
+    </main>
+    
 
     <!-- <nav>
         <ul>
@@ -138,7 +146,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-
 </body>
 
 </html>
