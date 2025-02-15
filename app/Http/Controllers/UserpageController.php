@@ -13,7 +13,7 @@ class UserpageController extends Controller
 
     public function userpage()
     {
-        $product = DB::table('products')->paginate(8);
+        $product = DB::table('products')->paginate(9);// 
         return view('user.userpage', ['data' => $product]);
     }
     public function productDetails(string $id)

@@ -39,6 +39,8 @@ nav li:first-child{
     margin-right: auto;
 }
 .sidebar{
+    margin: 0;
+    padding: 0;
     position: fixed;
     top: 0;
     right: 0;

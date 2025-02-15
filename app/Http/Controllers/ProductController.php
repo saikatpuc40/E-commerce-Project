@@ -18,7 +18,7 @@ class ProductController extends Controller
     {
         $req->validate(
             [    
-                 'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+                 'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:5120',
             ],);
         $imageName = time().'.'.$req->image->extension();  
         $req->image->move(public_path('images'), $imageName);
